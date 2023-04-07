@@ -1,8 +1,8 @@
-### ¡¡Welcome to my profile!!
+# ¡¡Welcome to my profile!!
 
 - 👋 Hi, I’m @JoeArzo
-- 👀 I’m interested in frontend, backend and games programming.
-- 📖 I’m currently learning Python and Web programming.
+- 👀 ***I’m interested in backend and games programming.***
+- 📖 *I’m currently learning Python, cibersecurity, and Back-End programing.*
 - 👾 I love the retro style.
 
 
