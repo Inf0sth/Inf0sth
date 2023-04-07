@@ -5,7 +5,6 @@
 - 📖 I’m currently learning Python and Web programming.
 - 👾 I love the retro style.
 
-- 📫 How to reach me: joelaal15@outlook.com
 
 <!---
 JoeArzo/JoeArzo is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
