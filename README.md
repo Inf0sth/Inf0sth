@@ -46,19 +46,3 @@
 | **[Proyecto 2]** | Breve descripción del proyecto y su propósito. | [Repositorio](https://github.com/Inf0sth/Logic_Rust) |
 | **[Proyecto 3]** | Breve descripción del proyecto y su propósito. | [Repositorio](https://github.com/Inf0sth/xfce-Custom) |
 
----
-
-<style>
-body {
-  background-color: #0d0d0d;
-  color: #00ff00;
-  font-family: 'Courier New', Courier, monospace;
-}
-a {
-  color: #ff00ff;
-  text-decoration: none;
-}
-a:hover {
-  color: #00ffff;
-}
-</style>
