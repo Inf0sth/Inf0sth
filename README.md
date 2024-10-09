@@ -9,6 +9,8 @@
 **/ 👾 I love the retro style 👾**
 **/ 🦀 I love RUST 🦀** 
 
+**Proverbios 24: 10-14 📖**
+
 ---
 
 ## 🚀 **Programming languages**
