@@ -44,7 +44,7 @@
 
 | Proyecto | Descripción | Enlace |
 | -------- | ----------- | ------ |
-| **[Proyecto 1]** | Breve descripción del proyecto y su propósito. | [Repositorio](https://github.com/Inf0sth/desarrolloweb_24) |
-| **[Proyecto 2]** | Breve descripción del proyecto y su propósito. | [Repositorio](https://github.com/Inf0sth/Logic_Rust) |
-| **[Proyecto 3]** | Breve descripción del proyecto y su propósito. | [Repositorio](https://github.com/Inf0sth/xfce-Custom) |
+| **[Web]** | Practicas de programación web | [Repo](https://github.com/Inf0sth/desarrolloweb_24) |
+| **[Practicas]** | Practicas de programación que engloban encriptación, herramientas y otros | [Repo](https://github.com/Inf0sth/School_works) |
+| **[XFCE-Custom]** | Una guía para customizar tu linux con XFCE Desktop | [Repo](https://github.com/Inf0sth/xfce-Custom) |
 
