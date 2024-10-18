@@ -26,10 +26,11 @@
 
 - **Editores:** Emacs, Vim, Visual Studio Code
 - **Hardware:** Arduino IDE
-- **Sistemas Operativos Linux:**
+- **Sistemas Operativos:**
   - **Debian / Kali Linux** 🐧
   - **Ubuntu** 🐧
   - **Arch Linux** 🖥️
+  - **Windows** 🖥️
 
 ---
 ## Ethical Hacking 💻
