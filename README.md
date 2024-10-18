@@ -42,9 +42,9 @@
 
 ## 📂 **Proyectos Destacados**
 
-| Proyecto | Descripción | Enlace |
-| -------- | ----------- | ------ |
-| **[Web]** | Practicas de programación web | [Repo](https://github.com/Inf0sth/desarrolloweb_24) |
-| **[Practicas]** | Practicas de programación que engloban encriptación, herramientas y otros | [Repo](https://github.com/Inf0sth/School_works) |
-| **[XFCE-Custom]** | Una guía para customizar tu linux con XFCE Desktop | [Repo](https://github.com/Inf0sth/xfce-Custom) |
+| Proyecto | Descripción |
+| -------- | ----------- |
+| **[Web](https://github.com/Inf0sth/desarrolloweb_24)** | Practicas de programación web |
+| **[Practicas](https://github.com/Inf0sth/School_works)** | Practicas de programación que engloban encriptación, herramientas y otros |
+| **[XFCE-Custom](https://github.com/Inf0sth/xfce-Custom)** | Una guía para customizar tu linux con XFCE Desktop |
 
