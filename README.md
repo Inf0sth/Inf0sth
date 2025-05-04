@@ -33,11 +33,10 @@
 
 
 ---
-## Ethical Hacking 💻
+## Cybersecurity 💻
 
-- `Networks`
-- `IoT`
-- `Forensics`
+- `Red team`
+- `Blue team`
 
 ---
 
