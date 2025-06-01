@@ -1,180 +1,164 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="description" content="My personal website">
-    <meta name="keywords" content="HTML, CSS, JavaScript">
-    <meta name="author" content="Inf0sth">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inf0sth</title>
-    <link rel="icon" type="image/png" sizes="64x64" href="I0G64px.png">
-    <link rel="stylesheet" href="info.css">
+  <meta charset="UTF-8">
+  <meta name="description" content="My personal website">
+  <meta name="keywords" content="HTML, CSS, JavaScript">
+  <meta name="author" content="Inf0sth">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Inf0sth</title>
+  <link rel="icon" type="image/png" sizes="64x64" href="I0G64px.png">
+  <link rel="stylesheet" href="info.css">
+
+  <!-- Vanta.js -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
+
+  <!-- GSAP -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
 </head>
 <body>
+
   <div id="vanta-bg"></div>
-  <nav class="navbar">
-        <div class="nav-content">
-          <img src="I064px.gif" alt="Logo" class="logo" />
-          <ul class="nav-links">
-            <li><a href="/Layer9/index.html">Inicio</a></li>
-            <li><a href="#proyectos">Proyectos</a></li>
-            <li><a href="/Layer9/Games/menu.html">Juegos</a></li>
-            <li><a href="/Layer9/About/info.html">Sobre mí</a></li>
-          </ul>
-        </div>
-    </nav>
-    <header>
-        <div class="container">
-            <h1>Hellooo!!, I'm <a href="https://github.com/Inf0sth" id="header-name" target="_blank" rel="noopener noreferrer">Inf0sth</a></h1>
-            <p>A cybersecurity engineer with a passion for programming and a computer science lover.</p>
-            <a href="https://www.linkedin.com/in/joel-araiza-536a36317" target="_blank" class="btn">Contact me</a>
-        </div>
-    </header>
 
+  <!-- Sidebar (25%) -->
+  <div class="sidebar">
+    <img src="I064px.gif" alt="Logo" class="logo" />
+    <h1>Hellooooo!!! I'm<a href="#about" id="header-name" rel="noopener noreferrer">Inf0sth</a></h1>
+    <a href="https://github.com/Inf0sth" target="_blank">Github</a>
+    <a href="https://linkedin.com/in/joel-araiza-536a36317" target="_blank">Contacto</a>
+  </div>
+
+  <!-- Contenido principal (75%) -->
+  <div class="main-content">
     <section id="about">
-        <div class="container">
-            <div class="card">
-                <h2>About me</h2>
-                <p>I'm passionate about everything related to computer science. The ability to create complete systems using only text-based configurations that a computer can interpret is simply magical and wonderful.</p>
-                <p>As a cybersecurity engineer, I like to think that this field is not solely based on technical or administrative aspects. Rather, we should aim to make the entire business ecosystem understandable to every department, fulfilling a complementary vision to improve the security of our systems.</p>
-                <p>I love programming and configuring systems because it reminds me that all the tools, protocols, and systems we use are ultimately just files we've defined how to interpret; and something as basic in computing as reading and writing has led to tremendous technological advances.</p>
-                <p>I enjoy learning new things that I can put into practice.</p>
-            </div>
+      <div class="container">
+        <div class="card">
+          <h2>About me</h2>
+          <p>I'm passionate about everything related to computer science. The ability to create complete systems using only text-based configurations that a computer can interpret is simply magical and wonderful.</p>
+          <p>As a cybersecurity engineer, I like to think that this field is not solely based on technical or administrative aspects. Rather, we should aim to make the entire business ecosystem understandable to every department, fulfilling a complementary vision to improve the security of our systems.</p>
+          <p>I love programming and configuring systems because it reminds me that all the tools, protocols, and systems we use are ultimately just files we've defined how to interpret; and something as basic in computing as reading and writing has led to tremendous technological advances.</p>
+          <p>I enjoy learning new things that I can put into practice.</p>
         </div>
+      </div>
     </section>
-
+    
     <section id="skills">
-        <div class="container">
-            <div class="card">
-                <h2>🛠️ Programming Skills</h2>
-                <div class="tech-icons">
-                    <div class="tech-container">
-                        <span class="tech">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/rust.svg" alt="JS" class="icon">
-                            Rust
-                        </span>
-                        <span class="tech">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/python.svg" alt="JS" class="icon">
-                            Python
-                        </span>
-                        <span class="tech">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/cplusplus.svg" alt="JS" class="icon">
-                            C++
-                        </span>
-                        <span class="tech">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/csharp.svg" alt="JS" class="icon">
-                            CSharp
-                        </span>
-                        <span class="tech">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/git.svg" alt="JS" class="icon">
-                            Git
-                        </span>
-                        <span class="tech">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg" alt="JS" class="icon">
-                            Git Hub
-                        </span>
-                        <span class="tech">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/javascript.svg" alt="JS" class="icon">
-                            JavaScript
-                        </span>
-                        <span class="tech">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/html5.svg" alt="JS" class="icon">
-                            Html
-                        </span>
-                        <span class="tech">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/css3.svg" alt="JS" class="icon">
-                            CSS
-                        </span>
-                        <span class="tech">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/arduino.svg" alt="JS" class="icon">
-                            Arduino
-                        </span>
-                        <span class="tech">
-                            SQL
-                        </span>
-                        <span class="tech">
-                            Emacs
-                        </span>
-                        <span class="tech">
-                            Nvim
-                        </span>
-                        <span class="tech">
-                            VSCode
-                        </span>
-                    </div>
-                </div>
+      <div class="container">
+        <div class="card">
+          <h2>🛠️ Programming Skills</h2>
+          <div class="tech-icons">
+            <div class="tech-container">
+              <!-- (icons como antes, los mantuve igual) -->
+              <span class="tech"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/rust.svg" class="icon">Rust</span>
+              <span class="tech"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/python.svg" class="icon">Python</span>
+              <span class="tech"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/cplusplus.svg" class="icon">C++</span>
+              <span class="tech"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/csharp.svg" class="icon">CSharp</span>
+              <span class="tech"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/git.svg" class="icon">Git</span>
+              <span class="tech"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg" class="icon">GitHub</span>
+              <span class="tech"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/javascript.svg" class="icon">JavaScript</span>
+              <span class="tech"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/html5.svg" class="icon">HTML</span>
+              <span class="tech"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/css3.svg" class="icon">CSS</span>
+              <span class="tech"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/arduino.svg" class="icon">Arduino</span>
+              <span class="tech">SQL</span>
+              <span class="tech">Emacs</span>
+              <span class="tech">Nvim</span>
+              <span class="tech">VSCode</span>
             </div>
-            <div class="card">
-                <h2>💻 Operating Systems</h2>
-                <div class="tech-icons">
-                    <div class="tech-container">
-                        <span class="tech">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/windows.svg" alt="JS" class="icon">
-                            Windows
-                        </span>
-                        <span class="tech">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linux.svg" alt="JS" class="icon">
-                            Linux
-                        </span>
-                        <span class="tech">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/debian.svg" alt="JS" class="icon">
-                            Debian
-                        </span>
-                        <span class="tech">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/kalilinux.svg" alt="JS" class="icon">
-                            Kali Linux
-                        </span>
-                        <span class="tech">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/archlinux.svg" alt="JS" class="icon">
-                            Arch Linux
-                        </span>
-                        <span class="tech">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/fedora.svg" alt="JS" class="icon">
-                            Fedora
-                        </span>
-                        <span class="tech">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linux.svg" alt="JS" class="icon">
-                            Clear Linux
-                        </span>
-                        <span class="tech">
-                            <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/ubuntu.svg" alt="JS" class="icon">
-                            Ubuntu
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <div class="card">
-                <h2>⚙️ Tools</h2>
-                <div class="tech-icons">
-                    <div class="tech-container">
-                        <span class="tech">Aircrack-ng</span>
-                        <span class="tech">Wireshark</span>
-                        <span class="tech">Tcpdump</span>
-                        <span class="tech">Metasploit</span>
-                        <span class="tech">Nessus</span>
-                        <span class="tech">Nmap</span>
-                        <span class="tech">Splunk</span>
-                        <span class="tech">Wazuh</span>
-                        <span class="tech">Proxychains</span>
-                        <span class="tech">FTK Imager</span>
-                        <span class="tech">Event Log explorer</span>
-                        <span class="tech">Debscan</span>
-                        <span class="tech">Burp Suite</span>
-                        <span class="tech">ClamAV</span>
-                        <span class="tech">Nikto</span>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+
+        <div class="card">
+          <h2>💻 Operating Systems</h2>
+          <div class="tech-icons">
+            <div class="tech-container">
+              <span class="tech"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/windows.svg" class="icon">Windows</span>
+              <span class="tech"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linux.svg" class="icon">Linux</span>
+              <span class="tech"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/debian.svg" class="icon">Debian</span>
+              <span class="tech"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/kalilinux.svg" class="icon">Kali Linux</span>
+              <span class="tech"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/archlinux.svg" class="icon">Arch Linux</span>
+              <span class="tech"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/fedora.svg" class="icon">Fedora</span>
+              <span class="tech"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linux.svg" class="icon">Clear Linux</span>
+              <span class="tech"><img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/ubuntu.svg" class="icon">Ubuntu</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h2>⚙️ Tools</h2>
+          <div class="tech-icons">
+            <div class="tech-container">
+              <span class="tech">Aircrack-ng</span>
+              <span class="tech">Wireshark</span>
+              <span class="tech">Tcpdump</span>
+              <span class="tech">Metasploit</span>
+              <span class="tech">Nessus</span>
+              <span class="tech">Nmap</span>
+              <span class="tech">Splunk</span>
+              <span class="tech">Wazuh</span>
+              <span class="tech">Proxychains</span>
+              <span class="tech">FTK Imager</span>
+              <span class="tech">Event Log explorer</span>
+              <span class="tech">Debscan</span>
+              <span class="tech">Burp Suite</span>
+              <span class="tech">ClamAV</span>
+              <span class="tech">Nikto</span>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
-    <footer>
-        <div class="container">
-            <p>&copy; 2025 Inf0sth. All rights reserved.</p>
+    <section id="aboutyou">
+      <div class="container">
+        <div class="card">
+          <h2>About you</h2>
+	  <p><strong>Location:</strong> <span id="location"></span></p>
+	  <p><strong>Navegador:</strong> <span id="browser"></span></p>
+	  <p><strong>SO:</strong> <span id="os"></span></p>
+	   <p><strong>IP:</strong> <span id="ip"></span></p>
         </div>
+      </div>
+    </section>
+    
+    <footer>
+      <div class="container">
+        <p>&copy; 2025 Inf0sth. All rights reserved.</p>
+      </div>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r121/three.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vanta@latest/dist/vanta.net.min.js"></script>
-    <script src="info.js"></script>
+  </div>
+
+  <script>
+    // Vanta background init
+    VANTA.NET({
+      el: "#vanta-bg",
+      mouseControls: true,
+      touchControls: true,
+      minHeight: 200.00,
+      minWidth: 200.00,
+      scale: 1.00,
+      scaleMobile: 1.00,
+      color: 0x12cc12,
+      backgroundColor: 0x12171b
+    });
+
+    // Animaciones de entrada por scroll
+    gsap.registerPlugin(ScrollTrigger);
+    gsap.utils.toArray(".card").forEach(card => {
+      gsap.from(card, {
+        scrollTrigger: {
+          trigger: card,
+          start: "top 80%",
+          toggleActions: "play none none reverse"
+        },
+        opacity: 0,
+        y: 50,
+        duration: 1,
+        ease: "power2.out"
+      });
+    });
+  </script>
+  <script src="info.js"></script>
 </body>
 </html>

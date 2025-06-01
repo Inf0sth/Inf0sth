@@ -37,37 +37,24 @@ function enableButton() {
     iColor++;
 }
 
-VANTA.NET({
-    el: "#vanta-bg",
-    mouseControls: true,
-    touchControls: true,
-    gyroControls: true,
-    minHeight: 200.00,
-    minWidth: 200.00,
-    scale: 1.00,
-    scaleMobile: 1.00,
-    color: 0x00ffcc,
-    backgroundColor: 0x000000
-});
+fetch("https://ipapi.co/json/")
+    .then(res => res.json())
+    .then(data => {
+	document.getElementById("location").textContent = `${data.city}, ${data.region}, ${data.country_name} (ISP: ${data.org})`;
+    })
+    .catch(() => {
+      document.getElementById("location").textContent = "No se pudo obtener la ubicación";
+    });
 
-particlesJS('particles-js', {
-    particles: {
-      number: { value: 80 },
-      color: { value: "#ffffff" },
-      shape: { type: "circle" },
-      opacity: { value: 0.5 },
-      size: { value: 3 },
-      move: { enable: true, speed: 2 },
-    },
-    interactivity: {
-      events: {
-        onhover: { enable: true, mode: "repulse" },
-        onclick: { enable: true, mode: "push" },
-      },
-      modes: {
-        repulse: { distance: 100 },
-        push: { particles_nb: 4 },
-      },
-    },
-  });
-  
+document.getElementById("browser").textContent = navigator.userAgent;
+document.getElementById("os").textContent = navigator.platform;
+
+  fetch("https://api.ipify.org?format=json")
+    .then(res => res.json())
+    .then(data => {
+      document.getElementById("ip").textContent = data.ip;
+    })
+    .catch(() => {
+      document.getElementById("ip").textContent = "No se pudo obtener la IP";
+    });
+
